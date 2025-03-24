@@ -1,6 +1,6 @@
 # Disaster Connect
 
-![Disaster Connect Banner](./assets/Disaster.png)
+![Disaster Connect Banner](assests/Disaster.png)
 
 
 ## About Disaster Connect
