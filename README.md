@@ -1,69 +1,67 @@
-# Welcome to your Lovable project
+# ![Disaster Connect Banner](your-banner-image-url)
 
-## Project info
+# Disaster Connect
 
-**URL**: https://lovable.dev/projects/640bb3bb-09b4-4114-912e-5c013e5a4ca6
+## Project Info
+**Disaster Connect** is an emergency response platform designed to provide real-time assistance and resource coordination during natural disasters. It enables affected individuals, volunteers, and emergency responders to communicate efficiently and access critical support.
 
-## How can I edit this code?
+## Features
+- **Live Disaster Updates**: Real-time alerts and status updates on ongoing disasters.
+- **Emergency Help Requests**: Users can request medical aid, rescue, or food/water supply.
+- **Volunteer Coordination**: A dedicated section for volunteers to register and assist affected communities.
+- **Resource Management**: Tracks available emergency supplies and facilitates distribution.
+- **Geolocation Integration**: Maps showing safe zones, shelters, and affected areas.
+- **Secure Authentication**: Ensures user safety through login and verification.
+- **Data Visualization**: Graphs and charts to analyze disaster impact and response efforts.
 
-There are several ways of editing your application.
+## Technologies Used
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn-ui
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: JWT-based authentication system
+- **Maps & Geolocation**: Google Maps API for real-time tracking
+- **Deployment**: Netlify for frontend, Render/Vercel for backend
 
-**Use Lovable**
+## Installation & Setup
+### Prerequisites
+Ensure you have **Node.js** and **npm** installed. If not, install them via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/640bb3bb-09b4-4114-912e-5c013e5a4ca6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Steps to Run Locally
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd disaster-connect
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
+To deploy the project on **Netlify** (for frontend) and **Render/Vercel** (for backend), follow these steps:
+1. Push your project to GitHub.
+2. Connect your repository to Netlify (frontend) and Render/Vercel (backend).
+3. Configure environment variables as required.
+4. Deploy and monitor your application.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contribution Guidelines
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit changes and push them to your fork.
+4. Open a pull request for review.
 
-**Use GitHub Codespaces**
+## License
+This project is licensed under the **MIT License**.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contact
+For queries or support, reach out to:
+- **Email**: your-2516abhi43@gmail.com
 
-## What technologies are used for this project?
 
-This project is built with .
+---
+_Disaster Connect - Empowering Communities, Saving Lives._
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/640bb3bb-09b4-4114-912e-5c013e5a4ca6) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
