@@ -69,10 +69,9 @@ npm run dev
 
 ## Deployment
 
-Disaster Connect can be deployed using:
-- **Netlify/Vercel** (for frontend hosting)
-- **Heroku/Render** (for backend deployment)
-- **MongoDB Atlas** (for cloud database management)
+Disaster Connect is deployed on:
+- **Netlify** 
+
 
 Example deployment steps:
 ```sh
