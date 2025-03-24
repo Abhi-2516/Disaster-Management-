@@ -1,6 +1,7 @@
 # Disaster Connect
 
-![Disaster Connect Banner](Disaster Management.png)  
+![Disaster Connect Banner](assets/Disaster Management.png)
+
 
 ## About Disaster Connect
 
