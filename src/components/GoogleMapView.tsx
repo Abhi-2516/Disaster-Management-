@@ -23,7 +23,7 @@ const GoogleMapView = ({ incidents, onIncidentSelect }: GoogleMapViewProps) => {
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const [markers, setMarkers] = useState<google.maps.Marker[]>([]);
   const [activeIncident, setActiveIncident] = useState<Incident | null>(null);
-  const googleMapsApiKey = "AIzaSyC3rhSVUC5lxLVl1NYBb526puVFv-gQb3I"; // Google Maps API key
+  const googleMapsApiKey = process.env.google_api_key; // Google Maps API key
 
   // Get icon based on incident type
   const getIncidentIcon = (type: string) => {
