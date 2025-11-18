@@ -40,7 +40,7 @@ Follow these steps to run Disaster Connect locally:
 ### Steps
 ```sh
 # Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Abhi-2516/Disaster-Management-
 
 # Step 2: Navigate to the project directory
 cd disaster-connect
